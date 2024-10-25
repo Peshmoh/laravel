@@ -1,5 +1,11 @@
-<h1>Our products list</h1>
+@extends('layouts.app')
 
+@section('content')
+
+<h1>Our products list</h1>
+@if (session('success'))
+<div class="alert alert-success">{{ session('success') }}</div>
+@endif
 <button>
     <a href="/products/create">Create product</a>
 </button>
@@ -18,3 +24,7 @@
     @endforeach
 
 </ul>
+
+{{ $products->links() }}
+
+@endsection
