@@ -24,6 +24,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/services">Services</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/orders">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/customers">Customers</a>
+                    </li>
                 </ul>
             </div>
         </div>
